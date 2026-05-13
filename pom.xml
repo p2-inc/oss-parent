@@ -49,7 +49,7 @@
     <maven.integration.skip>true</maven.integration.skip>
     <release.sign.skip>false</release.sign.skip>
     <java.version>1.8</java.version>
-    <ossrh.url>https://oss.sonatype.org</ossrh.url>
+    <ossrh.url>https://ossrh-staging-api.central.sonatype.com</ossrh.url>
   </properties>
 
   <build>
