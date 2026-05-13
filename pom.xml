@@ -4,7 +4,7 @@
   <groupId>io.phasetwo</groupId>
   <artifactId>oss-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.9</version>
+  <version>0.10-SNAPSHOT</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>Parent pom for oss projects</description>
@@ -27,7 +27,7 @@
   <scm>
     <url>https://github.com/spotify/fmt-maven-plugin</url>
     <connection>scm:git:git@github.com:p2-inc/oss-parent.git</connection>
-    <tag>v0.9</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
