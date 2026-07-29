@@ -4,7 +4,7 @@
   <groupId>io.phasetwo</groupId>
   <artifactId>oss-parent</artifactId>
   <packaging>pom</packaging>
-  <version>0.15-SNAPSHOT</version>
+  <version>0.15</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>Parent pom for oss projects</description>
@@ -27,7 +27,7 @@
   <scm>
     <url>https://github.com/p2-inc/oss-parent</url>
     <connection>scm:git:git@github.com:p2-inc/oss-parent.git</connection>
-    <tag>HEAD</tag>
+    <tag>v0.15</tag>
   </scm>
 
   <distributionManagement>
