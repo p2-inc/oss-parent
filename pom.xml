@@ -48,7 +48,7 @@
     <maven.test.skip>false</maven.test.skip>
     <maven.integration.skip>true</maven.integration.skip>
     <release.sign.skip>false</release.sign.skip>
-    <java.version>1.8</java.version>
+    <java.version>21</java.version>
     <ossrh.url>https://ossrh-staging-api.central.sonatype.com</ossrh.url>
   </properties>
 
@@ -195,7 +195,7 @@
             <artifactId>maven-javadoc-plugin</artifactId>
             <version>3.12.0</version>
             <configuration>
-              <source>8</source>
+              <source>${java.version}</source>
               <additionalparam>-Xdoclint:none</additionalparam>
               <detectJavaApiLink>false</detectJavaApiLink>
             </configuration>
